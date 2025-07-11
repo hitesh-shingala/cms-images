@@ -4,7 +4,7 @@
   "keywords": ["cms-images","cms-feature-image"],
   "homepage": "https://github.com/hitesh-shingala/cms-images",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": [
     "proprietary"
   ],
