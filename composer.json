@@ -1,12 +1,22 @@
 {
   "name": "hitesh-shingala/cms-images",
   "description": "Custom Magento 2 module",
+  "keywords": ["cms-images","cms-feature-image"],
+  "homepage": "https://github.com/hitesh-shingala/cms-images",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": [
     "proprietary"
   ],
-    "repositories": [
+  "authors": [
+      {
+          "name": "Hitesh Shingala",
+          "email": "hiteshshingala99@gmail.com",
+          "homepage": "Not Now",
+          "role": "Sr. Magento2 Developer"
+      }
+  ],
+  "repositories": [
     {
       "type": "vcs",
       "url": "https://github.com/hitesh-shingala/cms-images"
@@ -18,6 +28,9 @@
     ],
     "psr-4": {
       "Magemonkeys\\CmsImage\\": ""
+    },
+    "psr-0": {
+      "hitesh-shingala": "src"
     }
   },
   "require": {
