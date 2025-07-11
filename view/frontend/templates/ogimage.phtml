@@ -1,0 +1,7 @@
+<?php
+/** @var \Magemonkeys\CmsImage\Block\View $block */
+$_ogimage = $block->getOgImageUrl();
+if ($_ogimage != ""){ ?>
+    <img class="cmsbanner lazyOwl" src="<?= $_ogimage ?>">
+<?php } ?>
+  

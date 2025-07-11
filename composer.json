@@ -1,0 +1,27 @@
+{
+  "name": "hitesh-shingala/cms-images",
+  "description": "Custom Magento 2 module",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": [
+    "proprietary"
+  ],
+    "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/hitesh-shingala/cms-images"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Magemonkeys\\CmsImage\\": ""
+    }
+  },
+  "require": {
+    "php": "^8.1 || ^8.2",
+    "magento/framework": "*"
+  }
+}
